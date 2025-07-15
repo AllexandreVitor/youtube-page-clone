@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    
+}
+
+.left-header {
+    margin-left: 20px;;
+    display: flex;
+    width: 146px;
+    height: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-header img {
+ object-fit: none;   
+}
+
+#search-area-header {
+    display:flex;
+    height: 40px;
+}
+
+#search-header {
+    padding: 0;
+    width: 348px;
+    height: 40px;
+    border: 1px solid rgba(204, 204, 204, 1);
+    border-right: none;
+}
+
+#button-search-area-header {
+    width: 57px;;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid rgba(204, 204, 204, 1);
+    align-items: center;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.right-header {
+    margin-right: 20px;
+    display: flex;
+    width: 130px;
+    height: 34px;
+    justify-content: space-between;
+}
+
+#user-logo img {
+    height: 34px;
+}
+
+body {
+    background-color: rgba(249, 249, 249, 1);
+}
