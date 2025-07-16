@@ -14,6 +14,7 @@
 
 .min-font {
   font-size: 12px;
+  font-weight: 400;
 }
 
 .container-header {
@@ -76,9 +77,13 @@ body {
 }
 
 .watching-video {
-  margin: 30px 30px 0 60px;
+  display: flex;
+}
+
+.container-main-video {
   display: flex;
   flex-direction: column;
+  margin: 30px 30px 0 60px;
   width: 952px;
   height: 746px;
   gap: 20px;
@@ -111,7 +116,7 @@ body {
   color: rgba(81, 81, 81, 1);
 }
 
-.video-actions button {
+button {
   width: 159px;
   height: 40px;
   text-transform: uppercase;
@@ -119,6 +124,11 @@ body {
   background-color: rgba(204, 0, 0, 1);
   border-radius: 2px;
   border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(180, 0, 0, 1);
+  }
 }
 
 .like,
@@ -145,5 +155,36 @@ body {
 
   & a {
     text-decoration: none;
+  }
+}
+
+.videos-recommendation {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  gap: 20px;
+
+  margin-top: 30px;
+}
+
+.video-recommendation {
+  display: flex;
+  gap: 15px;
+
+  & .information-video-recommendation{
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    justify-content: flex-start;
+  }
+
+  & .description-video-recommendation {
+    justify-content: flex-start;
+    padding-top: 6px;
+    color: rgba(81, 81, 81, 1);
+  }
+
+  & img {
+    height: 100%;
   }
 }
