@@ -1,4 +1,4 @@
-# 🚀 Desafio de Projeto - Clonar Youtube Page
+# 🚀 Desafio de Projeto - Clonar Página do Youtube
 
 📌 **Nível:** Iniciante  
 🎯 **Objetivo:** Clonar uma página do youtube específica, referente ao desafio de projeto do **Bootcamp** - **Santander 2025 - Front-End da Dio**.  
